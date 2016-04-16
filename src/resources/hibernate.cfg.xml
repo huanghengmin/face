@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory>
+	<property name="c3p0.min_size">5</property>
+	<property name="c3p0.max_size">100</property>
+    <property name="c3p0.timeout">1800</property>
+    <property name="c3p0.max_statements">100</property>
+
+	<mapping resource="com/hzih/face/recognition/domain/xml/Account.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/Role.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/Permission.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/SafePolicy.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/UserOperLog.hbm.xml" />
+
+	<mapping resource="com/hzih/face/recognition/domain/xml/Device.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/FaceInfoRequest.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/FaceInfoCompRequest.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/FaceCompareResult.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/FeatureAlert.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/Alert.hbm.xml" />
+	<mapping resource="com/hzih/face/recognition/domain/xml/CompareDB.hbm.xml" />
+
+</session-factory>
+</hibernate-configuration>

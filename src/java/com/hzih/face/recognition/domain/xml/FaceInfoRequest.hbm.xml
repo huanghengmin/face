@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_faceInfo" name="com.hzih.face.recognition.domain.FaceInfoRequest">
+    <id access="field" name="id" type="java.lang.Long" column="id">
+      <generator class="sequence"/>
+    </id>
+    <property name="deviceType" column="deviceType" access="field" type="java.lang.String"/>
+    <property name="taskId" column="taskId" access="field" type="java.lang.String"/>
+    <property name="deviceId" column="deviceId" access="field" type="java.lang.String"/>
+    <property name="cmdType" column="cmdType" access="field" type="java.lang.String"/>
+    <property name="latitude" column="latitude" access="field" type="java.lang.Double"/>
+    <property name="longitude" column="longitude" access="field" type="java.lang.Double"/>
+    <property name="dateTime" column="logTime" access="field" type="java.util.Date"/>
+    <property name="filePathA" column="filePathA" access="field" type="java.lang.String"/>
+    <property name="filePathH" column="filePathH" access="field" type="java.lang.String"/>
+    <property name="filePathHead" column="filePathHead" access="field" type="java.lang.String"/>
+  </class>
+</hibernate-mapping>

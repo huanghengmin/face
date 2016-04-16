@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-unrar-0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../sharelib/rar/java-unrar-0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

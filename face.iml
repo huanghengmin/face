@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="appserver">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/appserver/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/appserver" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/java" />
+          <root url="file://$MODULE_DIR$/src/resources" />
+        </sourceRoots>
+      </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <fileset id="s2fileset" name="My Fileset " removed="false">
+            <file>file://$MODULE_DIR$/src/resources/struts.xml</file>
+            <file>jar://$MODULE_DIR$/../sharelib/jakarta/struts2/struts2-convention-plugin.jar!/struts-plugin.xml</file>
+            <file>jar://$MODULE_DIR$/../sharelib/json/jsonplugin.jar!/struts-plugin.xml</file>
+            <file>jar://$MODULE_DIR$/../sharelib/jakarta/struts2/struts2-spring-plugin.jar!/struts-plugin.xml</file>
+            <file>jar://$MODULE_DIR$/../sharelib/jakarta/struts2/struts2-core.jar!/struts-default.xml</file>
+          </fileset>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="sessionFactory" value="dataSource" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/resources/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset1" name="My Fileset" removed="false">
+          <file>file://$MODULE_DIR$/src/resources/spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/resources" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="face" level="project" />
+    <orderEntry type="library" name="syslog4j-0.9.46" level="project" />
+    <orderEntry type="library" name="FastInoset" level="project" />
+    <orderEntry type="library" name="mina-core-2.0.7" level="project" />
+    <orderEntry type="library" name="servlet" level="application" />
+    <orderEntry type="library" name="commons-compress-1.8.1" level="project" />
+    <orderEntry type="library" name="java-unrar-0.5" level="project" />
+    <orderEntry type="library" name="jdom" level="project" />
+    <orderEntry type="library" name="common" level="project" />
+    <orderEntry type="library" name="ojdbc7" level="project" />
+  </component>
+</module>

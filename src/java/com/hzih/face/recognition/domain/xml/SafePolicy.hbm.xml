@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_safe_policy" name="com.hzih.face.recognition.domain.SafePolicy">
+    <id access="field" name="id" type="java.lang.Long" column="id">
+      <generator class="sequence"/>
+    </id>
+    <property name="timeout" column="timeout" access="field" type="java.lang.Integer"/>
+    <property name="passwordLength" column="passwordLength" access="field" type="java.lang.Integer"/>
+    <property name="passwordRules" column="passwordRules" access="field" type="java.lang.String"/>
+    <property name="errorLimit" column="errorLimit" access="field" type="java.lang.Integer"/>
+    <property name="remoteDisabled" column="remoteDisabled" access="field" type="java.lang.Boolean"/>
+    <property name="macDisabled" column="macDisabled" access="field" type="java.lang.Boolean"/>
+    <property name="lockTime" column="lockTime" access="field" type="java.lang.Integer"/>
+  </class>
+</hibernate-mapping>

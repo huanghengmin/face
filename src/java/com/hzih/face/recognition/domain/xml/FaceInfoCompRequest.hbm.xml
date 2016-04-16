@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_compareInfo" name="com.hzih.face.recognition.domain.FaceInfoCompRequest">
+    <id access="field" name="taskId" type="java.lang.String" column="taskid">
+      <generator class="assigned"/>
+    </id>
+    <property name="deviceId" column="deviceId" access="field" type="java.lang.String"/>
+    <property name="featureId" column="featureId" access="field" type="java.lang.String"/>
+    <property name="filePath" column="filePath" access="field" type="java.lang.String"/>
+    <property name="score" column="score" access="field" type="java.lang.String"/>
+  </class>
+</hibernate-mapping>

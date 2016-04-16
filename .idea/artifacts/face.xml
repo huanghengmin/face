@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="face">
+    <output-path>E:/fartec/ichange/face/tomcat/webapps/ROOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="face" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="face" />
+          <element id="library" level="project" name="syslog4j-0.9.46" />
+          <element id="library" level="project" name="mina-core-2.0.7" />
+          <element id="library" level="project" name="FastInoset" />
+          <element id="library" level="project" name="commons-compress-1.8.1" />
+          <element id="library" level="project" name="java-unrar-0.5" />
+          <element id="library" level="project" name="jdom" />
+          <element id="library" level="project" name="common" />
+          <element id="library" level="project" name="ojdbc7" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/spring.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/resources/struts.xml" />
+      </element>
+      <element id="javaee-facet-resources" facet="face/web/appserver" />
+    </root>
+  </artifact>
+</component>

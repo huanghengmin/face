@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_faceCompareResult" name="com.hzih.face.recognition.domain.FaceCompareResult">
+    <id access="field" name="id" type="java.lang.Long" column="id">
+      <generator class="sequence"/>
+    </id>
+    <property name="taskId" column="taskId" access="field" type="java.lang.String"/>
+    <property name="featureId" column="featureId" access="field" type="java.lang.String"/>
+    <property name="deviceId" column="deviceId" access="field" type="java.lang.String"/>
+    <property name="badFriend" column="badFriend" access="field" type="java.lang.String"/>
+    <property name="compareResult" column="compareResult" access="field" type="java.lang.String"/>
+    <property name="imagePath" column="imagePath" access="field" type="java.lang.String"/>
+    <property name="score" column="score" access="field" type="java.lang.Integer"/>
+    <property name="dateTime" column="logTime" access="field" type="java.util.Date"/>
+  </class>
+</hibernate-mapping>

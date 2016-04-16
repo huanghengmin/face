@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_terminal" name="com.hzih.face.recognition.domain.Device">
+    <id access="field" name="deviceId" type="java.lang.String" column="deviceId">
+      <generator class="assigned"/>
+    </id>
+    <property name="mac" column="mac" access="field" type="java.lang.String"/>
+    <property name="ip" column="ip" access="field" type="java.lang.String"/>
+    <property name="deviceName" column="deviceName" access="field" type="java.lang.String"/>
+    <property name="deviceType" column="deviceType" access="field" type="java.lang.String"/>
+    <property name="registerTime" column="registerTime" access="field" type="java.util.Date"/>
+    <property name="port" column="port" access="field" type="java.lang.Integer"/>
+      <property name="province" column="province" access="field" type="java.lang.String"/>
+      <property name="city" column="city" access="field" type="java.lang.String"/>
+      <property name="organization" column="organization" access="field" type="java.lang.String"/>
+      <property name="institution" column="institution" access="field" type="java.lang.String"/>
+      <property name="place" column="place" access="field" type="java.lang.String"/>
+      <property name="address" column="address" access="field" type="java.lang.String"/>
+      <property name="manager" column="manager" access="field" type="java.lang.String"/>
+      <property name="telephone" column="telephone" access="field" type="java.lang.String"/>
+      <property name="mobile" column="mobile" access="field" type="java.lang.String"/>
+
+      <property name="latitude" column="latitude" access="field" type="java.lang.Double"/>
+      <property name="longitude" column="longitude" access="field" type="java.lang.Double"/>
+  </class>
+</hibernate-mapping>

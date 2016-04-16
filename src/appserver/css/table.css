@@ -1,0 +1,40 @@
+table.altRowsTable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+table.altRowsTable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.altRowsTable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.oddRowColor{
+    background-color:#d4e3e5;
+}
+.evenRowColor{
+    background-color:#c3dde0;
+}
+
+.inputText{
+    width: 40px;
+    vertical-align:middle;
+}
+
+.hidBtn{
+    vertical-align:middle;
+}
+
+.imgtable{
+    vertical-align:middle;
+}
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/appserver/js/net/manager_interface.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/js/net/manager_router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/js/system/manager_platform.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/js/user/user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/audit/audit_user.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/net/manager_interface.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/net/manager_router.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/net/manager_security_config.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/alert.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/compare_database.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/device.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/face.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/faceCompareResult.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/recognition/featureAlert.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/appserver/pages/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/dao/UserOperLogDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/Alert.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/CompareDB.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/Device.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/FaceCompareResult.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/FaceInfoCompRequest.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/FaceInfoRequest.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/domain/xml/FeatureAlert.hbm.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/utils/mina/MessageCodecFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/utils/mina/MessageInfoDecoder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/utils/mina/MessageInfoEncoder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/AlertAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/CompareDBAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/DeviceAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/FaceAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/FaceCompareResultAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/java/com/hzih/face/recognition/web/action/recognition/FeatureAlertAction.java" charset="UTF-8" />
+  </component>
+</project>

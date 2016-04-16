@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_account" name="com.hzih.face.recognition.domain.Account">
+    <id access="field" name="id" type="java.lang.Long" column="id">
+      <generator class="sequence"/>
+    </id>
+    <property name="userName" length="20" column="user_name" access="field" type="java.lang.String"/>
+    <property name="password" length="100" column="password" access="field" type="java.lang.String"/>
+    <property name="sex" length="10" column="sex" access="field" type="java.lang.String"/>
+    <set cascade="save-update" access="field" lazy="false" table="center_account_role" name="roles">
+      <key column="account_id"/>
+      <many-to-many class="com.hzih.face.recognition.domain.Role" column="role_id"/>
+    </set>
+    <property name="phone" length="20" column="phone" access="field" type="java.lang.String"/>
+    <property name="createdTime" column="created_time" access="field" type="java.util.Date"/>
+    <property name="modifiedTime" column="modified_time" access="field" type="java.util.Date"/>
+    <property name="status" length="20" column="status" access="field" type="java.lang.String"/>
+    <property name="depart" length="20" column="depart" access="field" type="java.lang.String"/>
+    <property name="title" length="20" column="title" access="field" type="java.lang.String"/>
+    <property name="name" length="20" column="name" access="field" type="java.lang.String"/>
+    <property name="email" length="30" column="email" access="field" type="java.lang.String"/>
+    <property name="startIp" length="20" column="start_ip" access="field" type="java.lang.String"/>
+    <property name="endIp" length="20" column="end_ip" access="field" type="java.lang.String"/>
+    <property name="startHour" length="2" column="start_hour" access="field" type="java.lang.Integer"/>
+    <property name="endHour" length="2" column="end_hour" access="field" type="java.lang.Integer"/>
+    <property name="description" column="description" access="field" type="java.lang.String"/>
+    <property name="remoteIp" column="remote_ip" access="field" type="java.lang.String"/>
+    <property name="mac" column="mac" access="field" type="java.lang.String"/>
+    <property name="ipType" column="ip_type" access="field" type="java.lang.Integer"/>
+  </class>
+</hibernate-mapping>

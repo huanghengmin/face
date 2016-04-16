@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class table="center_permission" name="com.hzih.face.recognition.domain.Permission">
+    <id access="field" name="id" type="java.lang.Long" column="id">
+      <generator class="sequence"/>
+    </id>
+    <property name="code" length="50" column="code" access="field" type="java.lang.String"/>
+    <property name="name" length="30" column="name" access="field" type="java.lang.String"/>
+    <property name="description" column="description" access="field" type="java.lang.String"/>
+    <property name="parentId" column="parent_id" access="field" type="java.lang.Long"/>
+    <property name="order" column="seq" access="field" type="java.lang.Integer"/>
+    <set cascade="none" access="field" lazy="false" table="center_role_permission" name="roles">
+      <key column="permission_id"/>
+      <many-to-many class="com.hzih.face.recognition.domain.Role" column="role_id"/>
+    </set>
+  </class>
+</hibernate-mapping>
